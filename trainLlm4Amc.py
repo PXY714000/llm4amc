@@ -24,8 +24,8 @@ device = torch.device('cuda:0')
 
 currentLoss = 100
 savingPath = "weights/llm4Amc-Qwen2.5-0.5B-Instruct.pth"
-trainingHistoryDataPath = "./data/H_his.mat"
-trainingPredictionDataPath = "./data/H_pre.mat"
+trainingHistoryDataPath = "./data/train/H_his.mat"
+trainingPredictionDataPath = "./data/train/H_pre.mat"
 
 #creat trainingSet and validationSet
 trainingSet = datasetProcessing(trainingHistoryDataPath,trainingPredictionDataPath, whetherTraining = 1, whetherFewshot = 0)  # creat data for training
