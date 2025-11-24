@@ -14,6 +14,16 @@ Adaptive modulation and coding (AMC) is a key technology in 5G new radio (NR), e
 
 ---
 
+## Dependencies and Installation
+
+- **Python 3.8** (Recommend using [Anaconda](https://www.anaconda.com/))
+- **PyTorch 2.0.0**
+- **NVIDIA GPU + CUDA**
+- **Python packages**:
+  ```bash
+  pip install -r requirements.txt
+  
+---
 
 ## Contact
   
