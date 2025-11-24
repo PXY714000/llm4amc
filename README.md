@@ -3,7 +3,7 @@
 This repository will contain the **implementation** of our paper:  
 
 > **LLM4AMC: Adapting Large Language Models for Adaptive Modulation and Coding**  
-> *X. Pan and B.Liu， et al.*  
+> *X. Pan, B.Liu, X.Cheng and C.Chen*  
 > Accepted by Journal of Communications and Information Networks (JCIN), 2025.
 
 ---
@@ -28,7 +28,7 @@ If you use this work, please cite:
 ```bibtex
 @article{LLM4AMC_2025,
   title={LLM4AMC: Adapting Large Language Models for Adaptive Modulation and Coding},
-  author={X. Pan and B. Liu and others},
+  author={X.Pan, B.Liu, X.Cheng and C.Chen},
   journal={Journal of Communications and Information Networks},
   year={2025}
 }
