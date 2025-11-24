@@ -41,7 +41,6 @@ The dataset used in this project is generated using QuaDRiGa, simulating realist
 - Run the training script:
    ```bash
   python trainLlm4Amc.py
-
 - The trained model will be automatically saved to the `checkpoints/` directory.
 
 ---
@@ -56,7 +55,7 @@ The dataset used in this project is generated using QuaDRiGa, simulating realist
 - Run evaluation:
   ```bash
   python testLlm4Amc.py
-
+---
 
 ### Notes
 
