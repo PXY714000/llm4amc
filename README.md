@@ -36,7 +36,7 @@ The dataset used in this project is generated using QuaDRiGa, simulating realist
 
 Modify the dataset path in trainLlm4Amc.py:
 
-train_data_path = "data/..."
+- train_data_path = "data/..."
 
 Run the training script:
 
