@@ -24,6 +24,45 @@ Adaptive modulation and coding (AMC) is a key technology in 5G new radio (NR), e
   pip install -r requirements.txt
   
 ---
+## 🚀 Get Started
+
+### Dataset Preparation
+
+The dataset used in this project is generated using QuaDRiGa, simulating realistic wireless channel environments. The dataset is stored in `.mat` format。
+
+---
+
+### Training
+
+Modify the dataset path in trainLlm4Amc.py:
+
+train_data_path = "data/..."
+
+Run the training script:
+
+python trainLlm4Amc.py
+
+The trained model will be automatically saved to the checkpoints.
+
+---
+
+### 📈 Testing / Evaluation
+
+Modify dataset path and model path in testLlm4Amc.py:
+
+test_data_path = "data/..."
+model_path = "weights/llm4amc_best.pt"
+
+Run evaluation:
+
+python testLlm4Amc.py
+
+---
+
+### Notes
+
+- Ensure `.mat` structure matches loader logic in dataset.py.
+- You may adjust sequence length and backbone model configuration inside llmModel.py.
 
 ## Contact
   
