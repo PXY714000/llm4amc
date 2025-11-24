@@ -12,10 +12,10 @@ if __name__ == "__main__":
 
     device = torch.device('cuda:0')
     
-    testHistoryDataPath = "./1,1_train_10/H_U_his.mat"
-    testPredictionDataPath = "./1,1_train_10/H_U_pre.mat"
+    testHistoryDataPath = "./data/test/H_his.mat"
+    testPredictionDataPath = "./data/test/H_pre.mat"
 
-    modelPath ="./weights/llm4Amc-1.1(10)_noise(15-25).pth"
+    modelPath ="./weights/llm4Amc.pth"
 
     historyLength = 16
     predictionLength = 1
