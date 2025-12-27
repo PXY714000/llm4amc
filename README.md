@@ -32,19 +32,6 @@ The dataset used in this project is generated using QuaDRiGa, simulating realist
 
 ---
 
-### Training
-
-- Modify the dataset path in `trainLlm4Amc.py`:
-  ```bash
-  train_data_path = "data/train/train_data.mat"
-
-- Run the training script:
-   ```bash
-  python trainLlm4Amc.py
-- The trained model will be automatically saved to the `checkpoints/` directory.
-
----
-
 ### Testing / Evaluation
 
 - Modify dataset path and model path in `testLlm4Amc.py`:
